@@ -1,0 +1,12 @@
+.header{
+    background-color: #24263B !important;
+    padding: 20px !important;
+}
+.menu{
+    color: #fff !important;
+    font-weight: 600;
+    transition: 0.8s;
+}
+.menu:hover{
+    color: #FF4A57 !important;
+}
