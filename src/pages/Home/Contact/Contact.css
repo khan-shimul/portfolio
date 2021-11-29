@@ -1,0 +1,13 @@
+.contact-container{
+    background-color: #1F2235;
+}
+.form-input{
+    background-color: #23263A;
+    color: #fff;
+    border: none !important;
+    padding: 15px;
+}
+.form-input:focus{
+    background-color: #23263A;
+    color: #fff;
+}
