@@ -44,11 +44,11 @@ const projects = [
 
 const Portfolio = () => {
     return (
-        <section className="portfolio-container py-5">
+        <section id="portfolio" className="portfolio-container py-5">
             <Container>
                 <div className="portfolio-heading">
                     <h2 className="text-white text-center fw-bold fs-1">Portfolio Showcase</h2>
-                    <p className="text-secondary text-center">We’re a WordPress Theme Development company . With more than <br /> ten years of knowledge and expertise.</p>
+                    <p className="text-secondary text-center">I'm a Junior MERN Stack Developer . With more than <br /> 2 years of knowledge and expertise.</p>
                     <div className="line"></div>
                 </div>
                 <div className="projects-container py-4">

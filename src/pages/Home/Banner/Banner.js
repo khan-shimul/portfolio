@@ -37,7 +37,9 @@ const Banner = () => {
                         <Link to="/shimul'sResume.pdf" target="_blank" download>
                             <button className="primary-button my-3">Get Resume</button>
                         </Link>
-                        <button className="secondary-button">Hire Me</button>
+                        <a href="#contact">
+                            <button className="secondary-button">Hire Me</button>
+                        </a>
                     </Col>
                     <Col
                         data-aos="fade-left"

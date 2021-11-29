@@ -3,7 +3,9 @@ import React from 'react';
 const Footer = () => {
     return (
         <footer>
-            <h2>This is footer</h2>
+            <div className="bg-dark py-2 text-white text-center ">
+                <small>Copyright © 2021 Shimul. All Rights Reserved.</small>
+            </div>
         </footer>
     );
 };
