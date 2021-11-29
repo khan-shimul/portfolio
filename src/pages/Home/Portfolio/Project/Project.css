@@ -1,0 +1,77 @@
+.project{
+    transition: 0.9s;
+}
+.project:hover{
+    box-shadow: rgba(100, 100, 111, 0.226) 0px 7px 29px 0px;
+    border-radius: 10px;
+}
+
+.project img{
+    height: 250px;
+    object-fit: inherit;
+    /* transition: transform .2s;
+    overflow: hidden; */
+}
+
+/* .project img:hover{
+    transform: scale(1.5);
+    overflow-x: hidden;
+    
+} */
+
+.tech-html{
+    background-color: #E44D26;
+    color: white;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 10px;
+    margin-right: 10px;
+}
+.tech-css{
+    background-color: #379AD6;
+    color: white;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 10px;
+    margin-right: 10px;
+}
+.tech-bootstrap{
+    background-color: #563D7C;
+    color: white;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 10px;
+    margin-right: 10px;
+}
+.tech-react{
+    background-color: #00D8FF;
+    height: 40px;
+    color: white;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 10px;
+    margin-right: 10px;
+}
+.tech-mongoDB{
+    background-color: #45AB3D;
+    height: 40px;
+    color: white;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.site-button{
+    background-color: transparent;
+    color: #23263A;
+    border: 2px solid #FF4A57;
+    border-radius: 50px;
+    margin-right: 20px;
+    padding: 10px 18px;
+    transition: 0.4s;
+}
+.site-button:hover{
+    background-color: #FF4A57;
+    color: #fff;
+}

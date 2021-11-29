@@ -1,6 +1,21 @@
 .banner-container{
     background-color: #24263B;
 }
+.social-contact{
+    display: inline-block;
+    background-color: transparent;
+    color: #fff;
+    margin-right: 15px;
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+    border: 2px solid #FF4A57;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+.social-contact:hover{
+    background-color: #FF4A57;
+}
 .banner-container h2{
     font-size: 58px;
     font-weight: 800;
