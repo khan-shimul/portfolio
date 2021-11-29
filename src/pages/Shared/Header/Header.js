@@ -4,17 +4,25 @@ import { Container, Nav, Navbar } from 'react-bootstrap';
 
 const Header = () => {
     return (
-        <Navbar className="header">
+        <Navbar className="header" sticky="top" collapseOnSelect expand="lg">
             <Container>
-                <Navbar.Brand href="#home" className="text-white">Shimul</Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Brand className="text-white">
+                    Shimul
+                    {/* <img
+                        alt=""
+                        src=""
 
-                <Navbar.Collapse className="justify-content-end">
-                    <Nav>
-                        <Nav.Link href="#home" className="menu">About</Nav.Link>
-                        <Nav.Link href="#home" className="menu">Skills</Nav.Link>
-                        <Nav.Link href="#home" className="menu">Portfolio</Nav.Link>
-                        <Nav.Link href="#home" className="menu">Contact</Nav.Link>
+                        className="d-inline-block align-top"
+                    />{' '} */}
+
+                </Navbar.Brand>
+                <Navbar.Toggle className="bg-light" aria-controls="responsive-navbar-nav" />
+                <Navbar.Collapse id="responsive-navbar-nav">
+                    <Nav className="me-auto"></Nav>
+                    <Nav className="menu">
+                        <Nav.Link to="/explore">About</Nav.Link>
+                        <Nav.Link to="/explore">Skill</Nav.Link>
+                        <Nav.Link to="/explore">Portfolio</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

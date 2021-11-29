@@ -16,9 +16,21 @@
     color: #fff;
     border: 2px solid #FF4A57;
     border-radius: 50px;
+    margin-right: 20px;
     padding: 14px 22px;
     transition: 0.4s;
 }
 .primary-button:hover{
     background-color: #FF4A57;
+}
+.secondary-button{
+    background-color: #FF4A57;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    padding: 14px 22px;
+    transition: 0.4s;
+}
+.secondary-button:hover{
+    background-color: #f73c49;
 }

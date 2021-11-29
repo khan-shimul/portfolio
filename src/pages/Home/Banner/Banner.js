@@ -2,6 +2,7 @@ import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import './Banner.css';
 import myImg from '../../../image/me/1.png';
+import { Link } from 'react-router-dom';
 
 const Banner = () => {
     return (
@@ -12,11 +13,10 @@ const Banner = () => {
                         <h6>WELCOME TO MY WORLD</h6>
                         <h2>I’m Md. Shimul Miah</h2>
                         <p>i'm Jonathan, professional web developer with long time <br /> experience in this field​</p>
-                        {/* <button className="primary-button">My Portfolio</button> */}
-                        <a href="https://drive.google.com/file/d/1xUzuG5lXTBdl4hYxs92wINAM34N_WYti/view?usp=sharing" target="_blank">
-                            <button className="primary-button">Download Resume</button>
-                        </a>
-
+                        <Link to="/shimul'sResume.pdf" target="_blank" download>
+                            <button className="primary-button my-3">Get Resume</button>
+                        </Link>
+                        <button className="secondary-button">Hire Me</button>
                     </Col>
                     <Col xs={12} sm={12} md={4}>
                         <img className="img-fluid" src={myImg} alt="" />

@@ -2,11 +2,11 @@
     background-color: #1F2235 !important;
     padding: 20px !important;
 }
-.menu{
+.menu a{
     color: #fff !important;
     font-weight: 600;
     transition: 0.8s;
 }
-.menu:hover{
+.menu a:hover{
     color: #FF4A57 !important;
 }
