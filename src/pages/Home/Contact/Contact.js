@@ -29,16 +29,16 @@ export default function ContactUs() {
                         <div className="col-8 form-group mx-auto">
                             <h2 className="text-white fw-bold">Contact Me</h2>
                             <div className="line2  mb-4"></div>
-                            <input type="text" className="form-control form-input" placeholder="Name" name="name" />
+                            <input type="text" className="form-control form-input mb-2 p-3" placeholder="Name" name="name" />
                         </div>
                         <div className="col-8 form-group pt-2 mx-auto">
-                            <input type="email" className="form-control form-input" placeholder="Email Address" name="email" required />
+                            <input type="email" className="form-control form-input mb-2 p-3" placeholder="Email Address" name="email" required />
                         </div>
                         <div className="col-8 form-group pt-2 mx-auto">
-                            <input type="text" className="form-control form-input" placeholder="Subject" name="subject" />
+                            <input type="text" className="form-control form-input mb-2 p-3" placeholder="Subject" name="subject" />
                         </div>
                         <div className="col-8 form-group pt-2 mx-auto">
-                            <textarea className="form-control form-input" id="" cols="30" rows="8" placeholder="Your message" name="message"></textarea>
+                            <textarea className="form-control form-input p-3" id="" cols="30" rows="8" placeholder="Your message" name="message"></textarea>
                         </div>
                         <div className="col-8 pt-3 mx-auto">
                             <input type="submit" className="secondary-button mt-3" value="Send Message"></input>

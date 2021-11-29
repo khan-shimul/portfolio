@@ -1,5 +1,6 @@
 .banner-container{
     background-color: #24263B;
+    height: 100vh;
 }
 .social-contact{
     display: inline-block;

@@ -3,12 +3,13 @@ import { Col, Container, Row } from 'react-bootstrap';
 import './Banner.css';
 import myImg from '../../../image/me/1.png';
 import { Link } from 'react-router-dom';
+import Typical from 'react-typical';
 
 const Banner = () => {
     return (
         <section className="banner-container py-5">
             <Container>
-                <Row className="d-flex justify-content-between align-items-center text-white">
+                <Row className="d-flex align-items-center mt-1 text-white">
                     <Col
                         data-aos="fade-right"
                         data-aos-offset="400"
@@ -31,9 +32,15 @@ const Banner = () => {
                                 </a>
                             </div>
                         </div>
+
                         <h6>WELCOME TO MY WORLD</h6>
                         <h2>I’m Md. Shimul Miah</h2>
-                        <p>i'm Shimul, professional web developer with long time <br /> experience in this field​</p>
+                        <Typical
+                            steps={['a', 1000, 'a MERN Stack Web Developer', 500, 'a Front-End Web Developer', 500, 'a Professional coder', 500]}
+                            loop={Infinity}
+                            wrapper="h3"
+                        />
+                        <p className="w-75 mt-4">I use animation as a third dimension by which to simplify experiences and kuiding thro each and every interaction. I’m not adding motion just to spruce things up, but doing it in ways that.</p>
                         <Link to="/shimul'sResume.pdf" target="_blank" download>
                             <button className="primary-button my-3">Get Resume</button>
                         </Link>
@@ -43,8 +50,6 @@ const Banner = () => {
                     </Col>
                     <Col
                         data-aos="fade-left"
-                        data-aos-offset="400"
-                        data-aos-easing="ease-in-sine"
                         xs={12} sm={12} md={4}>
                         <img className="img-fluid" src={myImg} alt="" />
                     </Col>
