@@ -2,7 +2,7 @@
     background-color: #1F2235;
 }
 .form-input{
-    background-color: #23263A;
+    background-color: #23263A !important;
     color: #fff;
     border: none !important;
     padding: 15px;

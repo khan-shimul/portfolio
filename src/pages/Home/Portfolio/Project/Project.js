@@ -17,7 +17,7 @@ const Project = ({ project }) => {
                     <Card.Text>
                         {description.split('').slice(0, 200).toString().replace(/,/g, '')}...
                     </Card.Text>
-                    <div className="d-flex mb-1">
+                    <div className="w-100 d-flex flex-wrap mb-1">
                         <Card.Text className="tech-html">
                             HTML
                         </Card.Text>

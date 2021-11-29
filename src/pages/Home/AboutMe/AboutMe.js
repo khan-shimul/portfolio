@@ -1,13 +1,26 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
+import { Col, Container, Row } from 'react-bootstrap';
+import mehh from '../../../image/me/meh.png'
 import './AboutMe.css';
 
 const AboutMe = () => {
     return (
         <section id="about" className="about-container">
-            <Container className="py-5">
-                <h2>About Me</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, hic, ullam animi reiciendis reprehenderit a repellat perferendis sit cupiditate rem odit minus at alias assumenda eveniet aperiam beatae velit! Sapiente molestiae fugiat inventore quis nulla voluptatum consectetur tenetur tempora ullam?</p>
+            <Container className="pt-5">
+                <Row className="align-items-center">
+                    <Col xs={12} sm={12} md={8}>
+                        <h2>About Me</h2>
+                        <div className="line2 mb-2"></div>
+                        <p>Determined Junior Developer with the ability to adapt in both self-starting and collaborative environments. Experience in Designing, Developing, and Debugging. Passionate about building first-class web applications. I always love to do clean and reusable code.
+                        </p>
+                        <p><span className="fw-bold">• Front-End Technologies:</span> HTML, CSS, Bootstrap, Tailwind, Material/UI, JavaScript, ES6, React Js <br />
+                            <span className="fw-bold">• Back-End Technologies:</span> MongoDB, Express Js, Node Js, RestAPI <br />
+                            <span className="fw-bold">• Tools:</span> Git, Google Chrome, VS Code, Netlify, Heroku, Figma, Photoshop</p>
+                    </Col>
+                    <Col xs={12} sm={12} md={4}>
+                        <img style={{ marginTop: '-60px' }} className="img-fluid" src={mehh} alt="" />
+                    </Col>
+                </Row>
             </Container>
         </section>
     );

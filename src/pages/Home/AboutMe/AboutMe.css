@@ -2,3 +2,10 @@
     background-color: #1F2235;
     color: #fff;
 }
+.line2{
+    height: 2px;
+    width: 50px;
+    background-color: #FF4A57;
+    display: flex;
+    /* margin: 0 auto; */
+}

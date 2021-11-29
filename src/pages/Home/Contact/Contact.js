@@ -27,7 +27,8 @@ export default function ContactUs() {
                     <div className="row pt-5 mx-auto">
 
                         <div className="col-8 form-group mx-auto">
-                            <h2 className="text-white mb-4">Contact Me</h2>
+                            <h2 className="text-white fw-bold">Contact Me</h2>
+                            <div className="line2  mb-4"></div>
                             <input type="text" className="form-control form-input" placeholder="Name" name="name" />
                         </div>
                         <div className="col-8 form-group pt-2 mx-auto">
