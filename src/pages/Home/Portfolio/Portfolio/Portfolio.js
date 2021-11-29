@@ -47,8 +47,8 @@ const Portfolio = () => {
         <section id="portfolio" className="portfolio-container py-5">
             <Container>
                 <div className="portfolio-heading">
-                    <h2 className="text-white text-center fw-bold fs-1">Portfolio Showcase</h2>
-                    <p className="text-secondary text-center">I'm a Junior MERN Stack Developer . With more than <br /> 2 years of knowledge and expertise.</p>
+                    <h2 className="text-white text-center fw-bold fs-1">My Portfolio</h2>
+                    <p className="text-secondary text-center">Visit My Portfolio and Keep Feedback</p>
                     <div className="line"></div>
                 </div>
                 <div className="projects-container py-4">

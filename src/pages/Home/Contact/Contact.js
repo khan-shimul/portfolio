@@ -20,7 +20,7 @@ export default function ContactUs() {
     }
 
     return (
-        <section className="contact-container pb-5">
+        <section id="contact" className="contact-container pb-5">
             <div className="container">
                 <form onSubmit={sendEmail}>
 

@@ -9,13 +9,13 @@ const Banner = () => {
     return (
         <section className="banner-container py-5">
             <Container>
-                <Row className="d-flex align-items-center mt-1 text-white">
+                <Row className="d-flex align-items-center mt-2 text-white">
                     <Col
                         data-aos="fade-right"
                         data-aos-offset="400"
                         data-aos-easing="ease-in-sine"
                         xs={12} sm={12} md={8}>
-                        <div className="d-flex align-items-center pb-4 ">
+                        <div className="d-flex align-items-center pb-4">
                             <div className="">
                                 <a href="https://www.linkedin.com/in/khanshimul196/" target="_blank" rel="noreferrer">
                                     <button className="social-contact"><i className="fab fa-linkedin-in"></i></button>
@@ -40,12 +40,12 @@ const Banner = () => {
                             loop={Infinity}
                             wrapper="h3"
                         />
-                        <p className="w-75 mt-4">I use animation as a third dimension by which to simplify experiences and kuiding thro each and every interaction. I’m not adding motion just to spruce things up, but doing it in ways that.</p>
+                        <p className="w-75 mt-4">I use animation as a third dimension by which to simplify experiences and kuiding thro each and every interaction.</p>
                         <Link to="/shimul'sResume.pdf" target="_blank" download>
-                            <button className="primary-button my-3">Get Resume</button>
+                            <button className="primary-button my-3">Download Resume</button>
                         </Link>
                         <a href="#contact">
-                            <button className="secondary-button">Hire Me</button>
+                            <button className="secondary-button">Get In Touch</button>
                         </a>
                     </Col>
                     <Col

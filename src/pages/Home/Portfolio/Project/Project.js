@@ -12,6 +12,7 @@ const Project = ({ project }) => {
             className="project">
             <Card className="h-100">
                 <Card.Img variant="top" className="img-fluid" src={img} />
+
                 <Card.Body>
                     <Card.Title>{name}</Card.Title>
                     <Card.Text>
