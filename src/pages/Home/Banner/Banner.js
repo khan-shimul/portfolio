@@ -33,7 +33,7 @@ const Banner = () => {
                         </div>
                         <h6>WELCOME TO MY WORLD</h6>
                         <h2>I’m Md. Shimul Miah</h2>
-                        <p>i'm Jonathan, professional web developer with long time <br /> experience in this field​</p>
+                        <p>i'm Shimul, professional web developer with long time <br /> experience in this field​</p>
                         <Link to="/shimul'sResume.pdf" target="_blank" download>
                             <button className="primary-button my-3">Get Resume</button>
                         </Link>
