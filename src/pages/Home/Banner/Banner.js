@@ -45,7 +45,7 @@ const Banner = () => {
                             <button className="primary-button my-3">Download Resume</button>
                         </Link>
                         <a href="#contact">
-                            <button className="secondary-button">Get In Touch</button>
+                            <button className="secondary-button">Hire Me</button>
                         </a>
                     </Col>
                     <Col

@@ -16,7 +16,9 @@ const AboutMe = () => {
                         <p><span className="fw-bold">• Front-End Technologies:</span> HTML, CSS, Bootstrap, Tailwind, Material/UI, JavaScript, ES6, React Js <br />
                             <span className="fw-bold">• Back-End Technologies:</span> MongoDB, Express Js, Node Js, RestAPI <br />
                             <span className="fw-bold">• Tools:</span> Git, Google Chrome, VS Code, Netlify, Heroku, Figma, Photoshop</p>
-                        <button className="primary-button mt-3">More About</button>
+                        <a href="#contact">
+                            <button className="primary-button mt-3">Get In Touch</button>
+                        </a>
                     </Col>
                     <Col xs={12} sm={12} md={5}>
                         <img style={{ marginTop: '-60px' }} className="img-fluid" src={mehh} alt="" />
