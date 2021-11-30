@@ -5,7 +5,7 @@
 }
 
 .service-card{
-    background-color: #1F2235;
+    background-color: #1F2235 !important;
     padding: 20px;
     border-radius: 10px;
     transition: 0.4s;
@@ -16,5 +16,5 @@
 }
 
 .service-card:hover{
-    background-color: #FF4A57;
+    background-color: #FF4A57 !important;
 }
