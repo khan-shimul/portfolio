@@ -40,15 +40,35 @@ const Details = () => {
                                 <div className="card-body">
                                     <h6>Featured - Application</h6>
                                     <h2 className="fw-bold fs-1">{singleProject?.name}</h2>
-                                    <p className="card-text py-4">{singleProject?.description}</p>
+                                    <p className="lh-base pt-2">{singleProject?.description}</p>
+                                    <p className="w-100 d-flex flex-wrap mb-1">
+                                        <span className="tech-html">{singleProject?.technology?.stack1}</span>
+                                        <span className="tech-css">{singleProject?.technology?.stack2}</span>
+                                        <span className="tech-bootstrap">{singleProject?.technology?.stack3}</span>
+                                        {
+                                            singleProject.technology.stack4 && <span className="tech-react">{singleProject?.technology?.stack4}</span>
+                                        }
+                                        {
+                                            singleProject.technology.stack5 && <span className="tech-firebase">{singleProject?.technology?.stack5}</span>
+                                        }
+                                        {
+                                            singleProject.technology.stack6 && <span className="tech-mongoDB">{singleProject?.technology?.stack6}</span>
+                                        }
+                                        {
+                                            singleProject.technology.stack7 && <span className="tech-express">{singleProject?.technology?.stack7}</span>
+                                        }
+                                        {
+                                            singleProject.technology.stack8 && <span className="tech-node">{singleProject?.technology?.stack8}</span>
+                                        }
+                                    </p>
                                     <a href={singleProject.liveSite} rel="noreferrer" target="_blank">
-                                        <button className="primary-button">View Project</button>
+                                        <button className="primary-button my-2">View Project</button>
                                     </a>
                                     <a href={singleProject.clientSideCode} rel="noreferrer" target="_blank">
-                                        <button className="primary-button">Client-Side-Code</button>
+                                        <button className="primary-button my-2">Client-Side-Code</button>
                                     </a>
                                     <a href={singleProject.serverSideCode} rel="noreferrer" target="_blank">
-                                        <button className="primary-button">Server-Side-Code</button>
+                                        <button className="primary-button my-2">Server-Side-Code</button>
                                     </a>
                                 </div>
                             </div>

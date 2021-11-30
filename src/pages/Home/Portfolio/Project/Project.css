@@ -37,7 +37,8 @@
     border-radius: 10px;
     font-size: 14px;
     padding: 10px;
-    margin-right: 10px;
+    /* margin-right: 10px; */
+    margin: 15px 10px 10px 0px;
 }
 .tech-css{
     background-color: #379AD6;
@@ -45,7 +46,7 @@
     border-radius: 10px;
     font-size: 14px;
     padding: 10px;
-    margin-right: 10px;
+    margin: 15px 10px 10px 0px;
 }
 .tech-bootstrap{
     background-color: #563D7C;
@@ -53,7 +54,7 @@
     border-radius: 10px;
     font-size: 14px;
     padding: 10px;
-    margin-right: 10px;
+    margin: 15px 10px 10px 0px;
 }
 .tech-react{
     background-color: #00D8FF;
@@ -62,7 +63,16 @@
     border-radius: 10px;
     font-size: 14px;
     padding: 10px;
-    margin-right: 10px;
+    margin: 15px 10px 10px 0px;
+}
+.tech-firebase{
+    background-color: #FFA30C;
+    height: 40px;
+    color: white;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 10px;
+    margin: 15px 10px 10px 0px;
 }
 .tech-mongoDB{
     background-color: #45AB3D;
@@ -71,7 +81,25 @@
     border-radius: 10px;
     font-size: 14px;
     padding: 10px;
-    margin-right: 10px;
+    margin: 15px 10px 10px 0px;
+}
+.tech-express{
+    background-color: #6BC045;
+    height: 40px;
+    color: white;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 10px;
+    margin: 15px 10px 10px 0px;
+}
+.tech-node{
+    background-color: #303030;
+    height: 40px;
+    color: white;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 10px;
+    margin: 15px 10px 10px 0px;
 }
 
 .site-button{
