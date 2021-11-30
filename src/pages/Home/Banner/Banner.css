@@ -21,6 +21,7 @@
     font-size: 58px;
     font-weight: 800;
 }
+
 .banner-container p{
     color: #d6d6d0;
     font-size: 18px;
@@ -49,4 +50,14 @@
 }
 .secondary-button:hover{
     background-color: #f73c49;
+}
+
+/* responsiveness */
+@media only screen and (max-width: 768px) {
+    .banner-container h2{
+        font-size: 45px;
+        margin: 20px 0;
+        font-weight: 700;
+        display: inline-block;
+    }
 }

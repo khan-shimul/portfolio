@@ -5,23 +5,47 @@ import './AboutMe.css';
 
 const AboutMe = () => {
     return (
-        <section id="about" className="about-container">
-            <Container className="pt-5">
+        <section id="about" className="about-container py-5">
+            <Container>
                 <Row className="align-items-center">
-                    <Col xs={12} sm={12} md={7}>
-                        <h2>About Me</h2>
+                    <Col
+                        data-aos="fade-up-right"
+                        xs={12} sm={12} md={7}>
+                        <h2 className="about-title">About Me</h2>
                         <div className="line2 mb-3"></div>
-                        <p>Determined Junior Developer with the ability to adapt in both self-starting and collaborative environments. Experience in Designing, Developing, and Debugging. Passionate about building first-class web applications. I always love to do clean and reusable code.
+                        <p className="summary">Determined Junior Developer with the ability to adapt in both self-starting and collaborative environments.
+                            <br />
+                            <span className="d-inline-block my-3">
+                                Specialize in Designing, Developing, and Debugging. Passionate about building first-class web applications. I always love to do clean and reusable code.
+                            </span>
                         </p>
-                        <p><span className="fw-bold">• Front-End Technologies:</span> HTML, CSS, Bootstrap, Tailwind, Material/UI, JavaScript, ES6, React Js <br />
-                            <span className="fw-bold">• Back-End Technologies:</span> MongoDB, Express Js, Node Js, RestAPI <br />
-                            <span className="fw-bold">• Tools:</span> Git, Google Chrome, VS Code, Netlify, Heroku, Figma, Photoshop</p>
+                        <div className="w-75">
+                            <ul>
+                                <li>
+                                    <p className="stack">
+                                        <span className="stack-title">Front-End:</span> <br /> HTML, CSS, Bootstrap, Tailwind, Material/UI, JavaScript, ES6, React Js
+                                    </p>
+                                </li>
+                                <li>
+                                    <p className="stack">
+                                        <span className="stack-title">Back-End:</span> <br /> MongoDB, Express Js, Node Js, RestAPI
+                                    </p>
+                                </li>
+                                <li>
+                                    <p className="stack">
+                                        <span className="stack-title">Tools:</span> <br />Git, Google Chrome, VS Code, Netlify, Heroku, Figma, Photoshop
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
                         <a href="#contact">
                             <button className="primary-button mt-3">Get In Touch</button>
                         </a>
                     </Col>
-                    <Col xs={12} sm={12} md={5}>
-                        <img style={{ marginTop: '-60px' }} className="img-fluid" src={mehh} alt="" />
+                    <Col
+                        data-aos="fade-up-left"
+                        xs={12} sm={12} md={5}>
+                        <img className="img-fluid" src={mehh} alt="" />
                     </Col>
                 </Row>
             </Container>

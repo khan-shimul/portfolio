@@ -33,7 +33,7 @@ const Banner = () => {
                             </div>
                         </div>
 
-                        <h6>WELCOME TO MY WORLD</h6>
+                        <h6 className="my-2">WELCOME TO MY WORLD</h6>
                         <h2>I’m Md. Shimul Miah</h2>
                         <Typical
                             steps={['a', 1000, 'a MERN Stack Web Developer', 500, 'a Front-End Web Developer', 500, 'a Professional coder', 500]}
@@ -42,7 +42,7 @@ const Banner = () => {
                         />
                         <p className="w-75 mt-4">Passionate about building first-class web applications. I always love to do clean and reusable code.</p>
                         <Link to="/shimul'sResume.pdf" target="_blank" download>
-                            <button className="primary-button my-3">Download Resume</button>
+                            <button className="primary-button mt-3 mb-4">Download Resume</button>
                         </Link>
                         <a href="#contact">
                             <button className="secondary-button">Hire Me</button>
