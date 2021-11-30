@@ -31,7 +31,7 @@ const Details = () => {
             </div> */}
             <section style={{ backgroundColor: '#24263B' }} className="details-container">
                 <Container>
-                    <div style={{ backgroundColor: '#24263B' }} className="card mb-3">
+                    <div style={{ backgroundColor: '#24263B' }} className="card my-3">
                         <div className="row g-0 py-2">
                             <div className="col-md-5">
                                 <img style={{ height: '100%', objectFit: 'cover', borderRadius: '30px' }} src={singleProject?.img} className="img-fluid p-3" alt="..." />
