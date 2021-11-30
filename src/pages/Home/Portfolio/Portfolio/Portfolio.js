@@ -1,9 +1,9 @@
 import React from 'react';
 import { Card, Col, Container, Row } from 'react-bootstrap';
 import './Portfolio.css';
-import proj1 from '../../../../image/projects/1.png';
-import proj2 from '../../../../image/projects/2.png';
-import proj3 from '../../../../image/projects/3.png';
+import proj1 from '../../../../image/projects/mock1.png';
+import proj2 from '../../../../image/projects/mock2.png';
+import proj3 from '../../../../image/projects/mock3.png';
 import Project from '../Project/Project';
 
 const projects = [
@@ -25,7 +25,7 @@ const projects = [
     },
     {
         id: 3,
-        name: 'Medical Solve Web Application',
+        name: 'Medical Web Application',
         img: proj3,
         description: 'This is Medical Instrument and Medicine Sale Web Application. Users will be able to sign in and signup using email-password and google account. If the user is not logged in, the details page redirects to the login page. After login, the user will be redirected to the page he/she wanted to go to.',
         technology: 'HTML, CSS, Bootstrap, React js, Firebase, React-Router',
@@ -47,12 +47,12 @@ const Portfolio = () => {
         <section id="portfolio" className="portfolio-container py-5">
             <Container>
                 <div className="portfolio-heading">
-                    <h2 className="text-white text-center fw-bold fs-1">My Portfolio</h2>
+                    <h2 className="text-white text-center fw-bold fs-1">My Recent Work</h2>
                     <p className="text-secondary text-center">Visit My Portfolio and Keep Feedback</p>
                     <div className="line"></div>
                 </div>
                 <div className="projects-container py-4">
-                    <Row xs={1} md={2} className="g-4">
+                    <Row xs={1} sm={1} md={3} className="g-4">
                         {
                             projects.map(project => <Project
                                 key={project.id}
