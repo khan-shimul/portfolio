@@ -9,7 +9,7 @@ const Banner = () => {
     return (
         <section className="banner-container py-5">
             <Container>
-                <Row className="d-flex align-items-center mt-2 text-white">
+                <Row className="d-flex align-items-center mt-3 text-white">
                     <Col
                         data-aos="fade-right"
                         data-aos-offset="400"

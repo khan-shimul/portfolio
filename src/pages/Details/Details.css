@@ -1,0 +1,16 @@
+/* .details-banner{
+    background-image: url("https://image.freepik.com/free-vector/gradient-network-connection-background_23-2148881321.jpg"),
+    linear-gradient(rgba(10, 23, 41, 0.74), rgba(20, 26, 59, 0.87));
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    width: 100%;
+    background-blend-mode: overlay;
+} */
+
+.details-container{
+    color: white;
+    padding: 50px 0;
+}

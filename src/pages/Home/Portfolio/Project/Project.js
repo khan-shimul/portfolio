@@ -1,10 +1,16 @@
 import React from 'react';
 import { Card, Col } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import './Project.css';
 
 const Project = ({ project }) => {
-    const { name, img, description, technology, liveSite, clientSideCode, serverSideCode } = project;
+    const { id, name, img, description, shortDescription, liveSite, clientSideCode } = project;
+    const navigate = useNavigate()
+
+    const handleDetails = id => {
+        navigate(`/project-details/${id}`)
+    }
+
     return (
         <Col
             data-aos="fade-up"
@@ -16,7 +22,8 @@ const Project = ({ project }) => {
                 <Card.Body>
                     <Card.Title className="fw-bold">{name}</Card.Title>
                     <Card.Text className="short-description">
-                        {description.split('').slice(0, 100).toString().replace(/,/g, '')}...
+                        {/* {description.split('').slice(0, 100).toString().replace(/,/g, '')}... */}
+                        {shortDescription}
                     </Card.Text>
                     {/* <div className="w-100 d-flex flex-wrap mb-1">
                         <Card.Text className="tech-html">
@@ -41,9 +48,7 @@ const Project = ({ project }) => {
                     <a href={clientSideCode} target="_blank" rel="noreferrer">
                         <button className="site-button">Code</button>
                     </a>
-                    <Link to='details'>
-                        <button className="site-button">Details</button>
-                    </Link>
+                    <button onClick={() => handleDetails(id)} className="site-button">Details</button>
                 </Card.Body>
             </Card>
         </Col>
