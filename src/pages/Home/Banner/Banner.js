@@ -40,7 +40,7 @@ const Banner = () => {
                             loop={Infinity}
                             wrapper="h3"
                         />
-                        <p className="w-75 mt-4">I use animation as a third dimension by which to simplify experiences and kuiding thro each and every interaction.</p>
+                        <p className="w-75 mt-4">Passionate about building first-class web applications. I always love to do clean and reusable code.</p>
                         <Link to="/shimul'sResume.pdf" target="_blank" download>
                             <button className="primary-button my-3">Download Resume</button>
                         </Link>
