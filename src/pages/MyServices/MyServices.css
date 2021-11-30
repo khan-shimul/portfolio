@@ -1,0 +1,20 @@
+.services-container{
+    background-color: #23263A;
+    padding: 20px 0px;
+    color: #fff;
+}
+
+.service-card{
+    background-color: #1F2235;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+.service-details{
+    color: rgb(211, 211, 211);
+}
+
+.service-card:hover{
+    background-color: #FF4A57;
+}
