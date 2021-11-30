@@ -5,7 +5,7 @@ import './AboutMe.css';
 
 const AboutMe = () => {
     return (
-        <section id="about" className="about-container py-5">
+        <section id="about" className="about-container py-5 overflow-hidden">
             <Container>
                 <Row className="align-items-center">
                     <Col
