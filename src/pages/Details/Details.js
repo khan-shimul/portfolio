@@ -82,7 +82,7 @@ const Details = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="projects-container py-4">
+                    {/* <div className="projects-container py-4">
                         <Row xs={1} sm={1} md={3} className="g-4">
                             {
                                 remaining?.map(project => <Project
@@ -91,7 +91,7 @@ const Details = () => {
                                 />)
                             }
                         </Row>
-                    </div>
+                    </div> */}
                 </Container>
             </section>
             <Footer />
