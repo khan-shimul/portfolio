@@ -9,7 +9,7 @@ import Portfolio from '../Portfolio/Portfolio/Portfolio';
 
 const Home = () => {
     return (
-        <div>
+        <div className="overflow-hidden">
             <Header />
             <Banner />
             <AboutMe />
