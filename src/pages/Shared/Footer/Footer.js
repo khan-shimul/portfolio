@@ -1,10 +1,11 @@
 import React from 'react';
+import './Footer.css';
 
 const Footer = () => {
     return (
         <footer>
-            <div className="bg-dark py-2 text-white text-center ">
-                <small>Copyright © 2021 Shimul. All Rights Reserved.</small>
+            <div className="footer-container py-3 text-white text-center ">
+                <small>Copyright © 2021 <span className="name">Shimul.</span> All Rights Reserved.</small>
             </div>
         </footer>
     );

@@ -11,7 +11,11 @@ const MyServices = () => {
                 <Container>
                     <div className="service-container py-5">
                         <Row xs={1} md={3} className="g-4">
-                            <Col>
+                            <Col
+                                data-aos="fade-right"
+                                data-aos-offset="300"
+                                data-aos-easing="ease-in-sine"
+                            >
                                 <Card className="service-card">
                                     {/* <Card.Img variant="top" src="holder.js/100px160" /> */}
                                     <Card.Body>
@@ -22,7 +26,10 @@ const MyServices = () => {
                                     </Card.Body>
                                 </Card>
                             </Col>
-                            <Col>
+                            <Col
+                                data-aos="fade-up"
+                                data-aos-anchor-placement="top-center"
+                            >
                                 <Card className="service-card">
                                     {/* <Card.Img variant="top" src="holder.js/100px160" /> */}
                                     <Card.Body>
@@ -33,7 +40,11 @@ const MyServices = () => {
                                     </Card.Body>
                                 </Card>
                             </Col>
-                            <Col>
+                            <Col
+                                data-aos="fade-left"
+                                data-aos-offset="300"
+                                data-aos-easing="ease-in-sine"
+                            >
                                 <Card className="service-card">
                                     {/* <Card.Img variant="top" src="holder.js/100px160" /> */}
                                     <Card.Body>

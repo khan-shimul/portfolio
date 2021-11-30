@@ -33,10 +33,18 @@ const Details = () => {
                 <Container>
                     <div style={{ backgroundColor: '#24263B' }} className="card my-3">
                         <div className="row g-0 py-2">
-                            <div className="col-md-5">
+                            <div
+                                data-aos="fade-right"
+                                data-aos-offset="300"
+                                data-aos-easing="ease-in-sine"
+                                className="col-md-5">
                                 <img style={{ height: '100%', objectFit: 'cover', borderRadius: '30px' }} src={singleProject?.img} className="img-fluid p-3" alt="..." />
                             </div>
-                            <div className="col-md-7 p-3">
+                            <div
+                                data-aos="fade-left"
+                                data-aos-offset="300"
+                                data-aos-easing="ease-in-sine"
+                                className="col-md-7 p-3">
                                 <div className="card-body">
                                     <h6>Featured - Application</h6>
                                     <h2 className="fw-bold fs-1">{singleProject?.name}</h2>
