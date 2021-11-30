@@ -2,6 +2,7 @@ import React from 'react';
 import './Header.css';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 const Header = () => {
     return (
@@ -21,10 +22,10 @@ const Header = () => {
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto"></Nav>
                     <Nav className="menu">
-                        <Nav.Link href="#about">About</Nav.Link>
-                        <Nav.Link href="#portfolio">Portfolio</Nav.Link>
+                        <Nav.Link as={HashLink} to="/home#about">About</Nav.Link>
+                        <Nav.Link as={HashLink} to="/home#portfolio">Portfolio</Nav.Link>
                         <Nav.Link as={NavLink} to="/blogs">Blogs</Nav.Link>
-                        <Nav.Link href="#contact">Contact</Nav.Link>
+                        <Nav.Link as={HashLink} to="/home#contact">Contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
