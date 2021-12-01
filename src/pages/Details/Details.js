@@ -29,7 +29,7 @@ const Details = () => {
                     <h2 className="fw-bold text-primary">Tour Package Details</h2>
                 </div>
             </div> */}
-            <section style={{ backgroundColor: '#24263B' }} className="details-container">
+            <section style={{ backgroundColor: '#24263B', marginTop: '50px' }} className="details-container">
                 <Container>
                     <div style={{ backgroundColor: '#24263B' }} className="card my-3">
                         <div className="row g-0 py-2">
@@ -75,9 +75,11 @@ const Details = () => {
                                     <a href={singleProject.clientSideCode} rel="noreferrer" target="_blank">
                                         <button className="primary-button my-2">Client-Side-Code</button>
                                     </a>
-                                    <a href={singleProject.serverSideCode} rel="noreferrer" target="_blank">
-                                        <button className="primary-button my-2">Server-Side-Code</button>
-                                    </a>
+                                    {
+                                        singleProject.serverSideCode && <a href={singleProject.serverSideCode} rel="noreferrer" target="_blank">
+                                            <button className="primary-button my-2">Server-Side-Code</button>
+                                        </a>
+                                    }
                                 </div>
                             </div>
                         </div>

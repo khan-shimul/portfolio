@@ -6,7 +6,7 @@ import { HashLink } from 'react-router-hash-link';
 
 const Header = () => {
     return (
-        <Navbar className="header" sticky="top" collapseOnSelect expand="lg">
+        <Navbar className="header" fixed="top" collapseOnSelect expand="lg">
             <Container className="menu">
                 <Navbar.Brand as={NavLink} to="/" className="text-white">
                     Shimul

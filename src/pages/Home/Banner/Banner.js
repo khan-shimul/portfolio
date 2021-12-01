@@ -7,7 +7,7 @@ import Typical from 'react-typical';
 
 const Banner = () => {
     return (
-        <section className="banner-container py-5">
+        <section style={{ marginTop: '70px' }} className="banner-container py-5">
             <Container>
                 <Row className="d-flex align-items-center mt-3 text-white">
                     <Col
