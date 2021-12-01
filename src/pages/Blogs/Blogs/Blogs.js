@@ -6,7 +6,7 @@ const Blogs = () => {
     return (
         <div>
             <Header />
-            <div style={{ backgroundColor: '#24263B', height: '100vh' }}>
+            <div style={{ backgroundColor: '#24263B', height: '100vh', marginTop: '80px' }}>
                 <Container>
                     <h2 className="text-center py-5 text-white">Comming Soon</h2>
                 </Container>
